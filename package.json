@@ -1,0 +1,29 @@
+{
+  "name": "@tyx1703/encoding",
+  "version": "1.0.0",
+  "description": "Text encoding detector implemented by javascript",
+  "main": "dist/Encoding.js",
+  "types": "dist/Encoding.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "jest",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanxinTang/Encoding.git"
+  },
+  "keywords": [
+    "encoding detector"
+  ],
+  "author": "tyx1703",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
